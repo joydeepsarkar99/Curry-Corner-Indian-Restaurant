@@ -315,7 +315,21 @@ body{
 }
 
 
-
+@media screen and (max-width:480px) {
+    .nav_bar{
+        height: 40vh;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navigation_menu>ul{
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+}
 
 
 
